@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DbCon {
     private static String url = "jdbc:mysql://localhost:3306/ecommerce_cart";
     private static String userName = "root";
-    private static String password = "sameh";
+    private static String password = "";
     private static Connection connection = null;
     public static Connection getConnection(){
         if(connection==null){
